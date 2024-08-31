@@ -1,0 +1,167 @@
+/* Center the "Order Product" button */
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.promo-image {
+  max-width: 15%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.text-content {
+  max-width: 60%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.right-image {
+    margin-left: 202px;
+  }
+
+
+
+.order-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  /* Style for the buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the input box */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+
+
+.video-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  iframe {
+    border: none;
+  }
+  
+
+
+/* Apply sky blue background to the entire webpage */
+body {
+    background-color: #87CEEB; /* Sky blue color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the grid */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Spacing between the images */
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Each image card */
+.image-card {
+    flex: 1 1 calc(33.333% - 40px); /* 3 items per row with space in between */
+    max-width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #e7dedd; /* Cream color for the squares */
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.image-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for the image inside the card */
+.image-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Heading */
+.image-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Description */
+.image-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Price */
+.image-card .price {
+    font-size: 1.1rem;
+    color: green;
+    font-weight: bold;
+}
+
+/* Centering and styling for additional content */
+div {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+b, u {
+    font-size: 18px;
+    color: #333;
+}
+
+a {
+    font-size: 16px;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
